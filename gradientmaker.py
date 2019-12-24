@@ -1,8 +1,9 @@
 ﻿from PIL import Image
 from math import sqrt
+from window import GradientWindow
 
-width = 256
-height = 256
+width = 500
+height = 500
 
 color1 = (21, 235, 203)
 color2 = (235, 21, 153)
@@ -37,5 +38,8 @@ def interpolateColor(coef1, coef2, colorIndex):
 for x in range(width):
     for y in range(height):
         pixels[x, y] = getPixelColor(x, y)
+
+win = GradientWindow((500, 600), "GradientMaker")
+win.show()
 
 image.show()
