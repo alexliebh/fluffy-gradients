@@ -41,6 +41,5 @@ for x in range(width):
 
 win = GradientWindow((500, 600), "GradientMaker")
 win.set_image(image)
-win.show()
 
 #image.show()
