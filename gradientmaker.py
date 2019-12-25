@@ -40,6 +40,7 @@ for x in range(width):
         pixels[x, y] = getPixelColor(x, y)
 
 win = GradientWindow((500, 600), "GradientMaker")
+win.setup_ui()
 win.set_image(image)
 
 #image.show()
