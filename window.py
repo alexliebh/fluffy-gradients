@@ -20,8 +20,6 @@ class GradientWindow:
         directionL.grid(pady=502,row=1, column =1, sticky=N)
 
 
-
-
     def set_image(self, img):
         self.image = img
 
