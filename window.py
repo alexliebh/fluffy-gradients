@@ -18,8 +18,7 @@ class GradientWindow:
 
     def setup_ui(self):
         directionL = Label(self.win, text ='Direction')
-        directionL.grid(pady=502,row=1, column =1, sticky=N)
-
+        directionL.grid(pady=502,row=0, column =0, sticky=N)
 
     def set_image(self, img):
         self.image = img
